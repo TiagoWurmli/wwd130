@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(248, 158, 173);
+}
+
+h1:hover{
+    color: black;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img{
+    width: 25%;
+}
+
+main h4, main p, header{
+    color: white;
+}
+
+header p, main p{
+    font-family: serif;
+    margin: auto 30%;
+}
+
+* {
+    text-align: center;
+}
+
+main p {
+    font-size: 3em;
+}
+
+ol{
+    margin: auto 30%;
+    text-align: left;
+}

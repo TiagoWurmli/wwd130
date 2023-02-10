@@ -18,7 +18,7 @@
     width: 200px;
     height: 200px; 
     background-color: green; 
-  
+    justify-items: center;
   } 
   .yellow1 {
     width: 200px; 

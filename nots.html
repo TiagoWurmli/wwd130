@@ -62,6 +62,44 @@ O Header e o Footer serão o mesmo para qualquer parte do site
 PAra colocar uma imagem aleatoria quando tiver vendo propriadades do HTML use esse site
 EX:<img src="https://placeimg.com/320/240/animals" />    Os numeros são as escalas da imagem
 
+-Units of mesure(unidades de medida)
+No CSS tem 'px'(pixels), '%'e 'em'(que é a medida da fonte, do elemento atual)
+O pixels é um valor fixo, não importa o tamanha da tela ou outras coisas
+% de ocupação da tela e em são relativos e mudam de acordo com outros elementos, tipo tamanho da fonte e tela
+EX: font-size: 80%;
+EX width: .5em;
+
+-Block and Inline elements(blocos e na linha)
+Os elementos blocos ocupam a largura toda da linha, então so tera eles naquela linha
+Os elementos inline so ocupam o espaço nessessario e podem ter mais em uma mesma linha
+Muda de um pra outro tem q marcar no CSS 
+EX: #warm_list li {       #main img{
+    display: inline; }    display: block; }
+Tem como transformar em um inline-block. Que faz com que um bloco possa ficar na mesma linha que outros, mas permanecendo com propriedades de bloco
+<a> <img> <span> <button> <label> Sao Inline. O resto é Block 
+    Examples of block elements are div, p, article, section, h1-h6, ol, ul, li, form, main, and nav
+
+-Center(centralizar)
+Pra centralizar coloca 'margin: 0 auto;' pra inline e block elementos e text-align: center; pra blocks tbm.
+
+-Specificity e Selectors
+Veja o site https://www.w3schools.com/cssref/css_selectors.php ou https://www.w3schools.com/css/css_pseudo_classes.asp
+Eles fazemcom que merquemos as coisas que queremos, tipo quando a pessoa coloca o mouse em cima de um botão, fazer o botao mudar de cor e tals (hover)
+Ou marcar o terceiro elemento de uma parada e assim por diante pra mudar tamanho, cor e essas paradas
+Pra selecionar muitos elementos de uma vez, so colocar virgula entre eles
+EX: nav, footer {
+    background-color: steelblue; }
+Pra sececionar todos os paragrafos dentro do main, por exemplo, so colocar o p depois do main sem virgula
+EX: main p {
+    padding: 10px; }
+
+-Ordem
+Id são mais importantes na hora de setar um valor pra parada, depois classes ai o resto
+
+-Borda
+Pra ver os Blocos, blocks
+* {
+    border: 2px solid blue; }
 
 
 
