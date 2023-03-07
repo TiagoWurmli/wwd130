@@ -25,7 +25,7 @@ nav {
     text-align: center;
 }
 
-main section {
+.home-grid section {
     text-align: center;
 }
 
@@ -105,7 +105,7 @@ main h2 {
     color: #D6D58E;
 }
 
-main {
+.home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -270,3 +270,67 @@ main section img {
         margin-top: 25px;
     }
 }
+
+/* RIVERS */
+
+#river-title{ 
+    text-align: center;
+    color: #D6D58E;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+
+.rivers-grid p{
+    color: #9FC131;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.rivers-grid h2{
+    font-family: "Open Sans", Arial, sans-serif;
+    grid-column: 1/11;
+    grid-row: 1/2;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+
+.rivers-grid section {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.river-idaho img, .river-arizona img {
+    grid-column: 1/5;
+    grid-row: 2/5;
+    width: 100%;
+}
+
+.river-idaho p, .river-arizona p {
+    grid-column: 5/11;
+    grid-row: 2/5;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.river-utah img {
+    grid-column: 6/11;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+.river-utah p {
+    grid-column: 1/6;
+    grid-row: 2/5;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.river-idaho p, .river-utah p, .river-arizona p {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.river-idaho img, .river-utah img, .river-arizona img {
+    box-shadow: 5px 5px 10px black;
+}
+
+
