@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap');
+
+body {
+    background-color: #05204A;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #053B06;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a {
+    text-align: center;
+    color: #6BD425;
+    text-decoration: none;
+    padding: 35px;
+    justify-self: center;
+    font-size: 1.5em;
+    grid-row: 3/4;
+    margin-top: 20px;
+}
+
+nav {
+    display: grid;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #FCCB06;
+    color: #05204A;
+    border-radius: 40px;
+}
+
+#logo_link  {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    grid-row: 1/4;
+}
+
+.logo{
+    width: 100%;
+}
+
+.home-grid {
+    background-color: #6BD425;
+}
+
+.home-title {
+    color: #FCCB06;
+    font-family: 'Neucha', 'Bradley Hand', sans-serif;
+    font-size: 2.5em;
+    margin: 100px;
+    text-align: center;
+}
+
+.home-grid section {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.home-grid section img {
+    width: 100%;
+    grid-row: 2/4;
+    grid-column: 1/4;
+    margin: 15px;
+}
+
+.home-grid section h2 {
+    grid-row: 1/2;
+    grid-column: 1/11;
+    margin: 50px;
+}
+
+.home-grid section p {
+    grid-row: 2/4;
+    grid-column: 4/11;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-self: center;
+
+}
+
+p {
+    color: #053B06;
+}
+
+footer {
+    background-color: #6BD425;
+    color: #05204A;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #053B06;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #05204A;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+footer .social img {
+    padding-top: 15px;
+}
