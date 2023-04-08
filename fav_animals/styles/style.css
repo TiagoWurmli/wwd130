@@ -52,8 +52,8 @@ nav a:hover {
     width: 100%;
 }
 
-.home-grid {
-    background-color: #6BD425 ;
+.home-grid, .turtle-grid {
+    background-color: #6BD425;
 }
 
 .home-title {
@@ -160,17 +160,19 @@ footer .social img {
     text-align: center;
 }
 
-.turtle-grid {
-    background-color: #FCCB06;
-    border-radius: 5%;
-}
-
 .turtle-grid section img {
     width: 100%;
     grid-row: 2/4;
     grid-column: 1/4;
-    margin: 20px;
+    margin: 12px;
     border-radius: 10%;
+}
+
+#turtle-bubble img {
+    border: 5px solid #05204A;
+}
+
+#turtle-puddle img {
     border: 5px solid #053B06;
 }
 
@@ -178,16 +180,46 @@ footer .social img {
     grid-row: 1/2;
     grid-column: 1/11;
     margin: 50px;
+    color: #05204A;
 }
 
-.turtle-grid section p {
+#turtle-puddle p {
     grid-row: 2/4;
     grid-column: 4/11;
     margin-left: 30px;
     margin-right: 30px;
     align-self: center;
-    color:#05204A;
+    color:#053B06;
     font-size: 1.2em;
+}
+
+#turtle-bubble p {
+    grid-row: 2/4;
+    grid-column: 4/11;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-self: center;
+    color:#053B06;
+    font-size: 1.2em;
+}
+
+.fisrt-para, .third-para {
+    grid-row: 2/4;
+    grid-column: 4/11;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-self: center;
+    color:#053B06;
+    font-size: 1.2em;
+}
+
+.second-para {
+    margin-left: 30px;
+    margin-right: 30px;
+    align-self: center;
+    color:#053B06;
+    font-size: 1.2em;
+    grid-column: 1/11;
 }
 
 h2 {
