@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display&family=Roboto&display=swap');
+
+body {
+    background-color: #c3e3fd;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #cdb4db;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a {
+    text-align: center;
+    color: #084c61;
+    text-decoration: none;
+    padding: 35px;
+    justify-self: center;
+    font-size: 1.5em;
+    grid-row: 3/4;
+    margin-top: 20px;
+}
+
+nav {
+    display: grid;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #190B28;
+    color: #cdb4db;
+    border-radius: 40px;
+}
+
+.logo_link  {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    grid-row: 1/4;
+}
+
+.logo{
+    width: 100%;
+}
+
+.home-grid, .subpage-grid {
+    background-color: #084c61;
+}
+
+h1 {
+    color: #190B28;
+    font-family: 'Neucha', 'Bradley Hand', sans-serif;
+    font-size: 2.5em;
+    margin: 100px;
+    text-align: center;
+}
+
+.home-grid section, .subpage-grid section {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+h2 {
+    color: #cdb4db;
+}
+ 
+h4 {
+    text-align: center;
+    line-height: 2.5;
+    color:#c3e3fd;
+}
+
+/* Subpages */
+
+.subpage-grid section img {
+    width: 100%;
+    grid-row: 2/4;
+    grid-column: 1/4;
+    margin: 12px;
+    border-radius: 10%;
+    border: 5px solid #c3e3fd;
+}
+
+.subpage-grid section h2 {
+    grid-row: 1/2;
+    grid-column: 1/11;
+    margin: 50px;
+    color: #c3e3fd;
+}
+
+.first-para, .third-para {
+    grid-row: 2/4;
+    grid-column: 4/11;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-self: center;
+    color:#cdb4db;
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #cdb4db;
+}
+
+#titulo {
+    font-family: 'Courgette' ;
+    color: #084c61;
+    grid-column: 2/3;
+    margin: 0px;
+    display: inline-block;
+    font-size: 4em;
+    grid-row: 5/6;
+    margin: 0;
+}
+
+.marca {
+    font-family: 'DM Serif Display' ;
+    color: #190B28;
+    grid-column: 2/3;
+    font-size: 4.5em;
+    grid-row: 5/6;
+    display: inline-block;
+}
+
+.home a {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    text-align: center;
+    color: #084c61;
+    text-decoration: none;
+    padding: 35px;
+    justify-self: center;
+    font-size: 1.5em;
+    margin-bottom: 100px;
+}
+
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/10;
+}
+
+.home {
+    background-color: #cdb4db;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+}
+
+.home a:hover {
+    background-color: #190B28;
+    color: #cdb4db;
+    border-radius: 40px;
+}
